@@ -1,6 +1,6 @@
 <?php
 
-class Font_awesome_model extends CI_Model
+class Codeigniter_model extends CI_Model 
 {
 
    function __construct()

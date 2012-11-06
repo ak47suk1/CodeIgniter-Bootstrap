@@ -49,6 +49,7 @@ Usage: php index.php build <args>
          "font_awesome_model"
       ));
 
+
    }
 
 }
