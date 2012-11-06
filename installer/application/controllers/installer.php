@@ -67,7 +67,7 @@ Usage: php index.php build <args>
       // load the required models.
       $this->load->model(array(
          "twitter_bootstrap_model",
-         "code_igniter_model",
+         "codeigniter_model",
          "font_awesome_model"
       ));
 
@@ -77,7 +77,4 @@ Usage: php index.php build <args>
    }
 
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
 
