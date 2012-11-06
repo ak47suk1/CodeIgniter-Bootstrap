@@ -41,7 +41,7 @@
 $route['default_controller'] = "installer";
 $route['404_override'] = '';
 
-$route['(:any)'] = "installer/index/$1";
+$route['build/(:any)'] = "installer/build/$1";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

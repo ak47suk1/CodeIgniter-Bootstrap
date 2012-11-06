@@ -6,8 +6,30 @@ class Installer extends CI_Controller {
       '--with-grunt' => false
    );
 
-	function index()
+   function index()
+   {
+
+      echo"
+CodeIgniter Bootstrap
+Author: sjlu (tacticalazn@gmail.com)
+A tool which customizes your framework package for you
+without you needing to do the heavy lifting. Great for
+the ones who just want to start coding.
+            
+Usage: php index.php build <args>
+            
+--with-grunt
+\tInstalls a basic LESS compiler and JS minifier.
+\tRequires that you have Node and NPM installed.
+\n
+";
+
+
+   }
+
+	function build()
 	{
+
       $n = 1;
       while (($arg = $this->uri->segment($n)) !== FALSE)
       {
