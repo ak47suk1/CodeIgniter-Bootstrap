@@ -1,4 +1,10 @@
+node_modules
 .DS_Store
-.swp
-application/cache
-application/logs
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.dropbox

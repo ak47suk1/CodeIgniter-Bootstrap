@@ -1,0 +1,9 @@
+[submodule "installer/external/CodeIgniter"]
+	path = installer/external/CodeIgniter
+	url = https://github.com/EllisLab/CodeIgniter.git
+[submodule "installer/external/bootstrap"]
+	path = installer/external/bootstrap
+	url = https://github.com/twitter/bootstrap.git
+[submodule "installer/external/Font-Awesome"]
+	path = installer/external/Font-Awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git
